@@ -33,7 +33,7 @@ if 0 < user_number_one < 10:
                 print("¡Lo has adivinado!")
 
             else:
-                print("¡No lo has adivinado! No tienes ni idea de cual es xD")
+                print("¡No lo has adivinado! No tienes ni idea de cual es")
 
 else:
     print("HE DICHO DEL 1 AL 10")
