@@ -4,4 +4,7 @@ Crear un programa que cambie todas las ‘A’ o ‘a’ por la string ‘VACA�
 
 user_sentence = input("Introduce una frase para ejecutar el programa: ")
 
-print("Su frase final es: {}".format(user_sentence.replace("a", "VACA")))
+
+final_sentence_1 = user_sentence.replace("A", "VACA")
+
+print("Su frase final es: {}".format(final_sentence_1.replace("a", "VACA")))
