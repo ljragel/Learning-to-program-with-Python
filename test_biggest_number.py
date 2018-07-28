@@ -2,10 +2,6 @@
 Escribe una función que encuentre el numero más grande entre 3 numeros.
 """
 
-
-
-
-
 total_numbers_list = []
 
 while len(total_numbers_list) < 3:
