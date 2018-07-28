@@ -1,4 +1,6 @@
-
+"""
+Este programa calcula la media aricmética de varios números introducidos por el usuario
+"""
 
 number_list = []
 loop_finalized = False
