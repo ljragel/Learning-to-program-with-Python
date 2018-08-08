@@ -1,14 +1,22 @@
+"""
+Este programa básicamente es una prueba para poner en práctica el principio de las listas
+"""
+
+#Falta: NO FUNCIONA
+
 
 
 user_list = []
 
 user_items = input("Dime un item que quieras añadir a la lista: ")
 
-while user_items != "FIN":
+if not user_items != "FIN":
     for new_item in user_list:
-        user_list.append(user_items)
+        user_list.append(new_item)
+        print("¡Item añadido a la lista correctamente!")
 
-print(user_list)
+else:
+    print(user_list)
 
 
 

@@ -1,18 +1,19 @@
+"""
+Este programa es solo una prueba sin inpuut de usuario para poner en práctica el concepto while
+"""
+
 first_number = 10
 
-print(first_number)
-print("Además el número es par")
+print("El número {} es par".format(first_number))
 
 while first_number > 0:
     first_number = first_number - 1
 
     if first_number % 2 == 0:
-        print(first_number)
-        print("Además el número es par")
+        print("El número {} es par".format(first_number))
 
     else:
-        print(first_number)
-        print("Además el número es impar")
+        print("El número {} es impar".format(first_number))
 
 
 

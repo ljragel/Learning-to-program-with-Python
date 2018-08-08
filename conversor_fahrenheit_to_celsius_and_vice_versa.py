@@ -1,3 +1,6 @@
+"""
+Este programa es un conversor de grados celcius a fahrenheit y al revés
+"""
 
 
 

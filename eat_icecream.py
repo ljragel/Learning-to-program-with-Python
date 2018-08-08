@@ -1,3 +1,9 @@
+"""
+Este programa es un pequeño juego poniendo en práctica el concepto "If" / "Else" con HELADOS
+"""
+
+#Falta: Hacer que el programa finalice cuando el usuario indique una variable con un valor que imposibilite realmente la continuación del programa pues el resultado será el mismo
+
 
 
 me_apetece_helado_input = input("¿Te apetece un helado? (Si/No): ").upper()
