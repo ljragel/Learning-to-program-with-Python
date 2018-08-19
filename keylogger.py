@@ -1,4 +1,7 @@
 
+#Hay que instalar e importar previamente las librerías
+
+
 import pyHook, pythoncom, sys, logging
 import time, datetime
 
