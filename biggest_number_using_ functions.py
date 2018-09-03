@@ -2,11 +2,12 @@
 """"
 Escribe un programa que encuentre el numero más grande entre 3 numeros
 """
+
 #Da "error" (function biggest_number at 0x0159B618), no funciona del todo
 
+
+
 input_numbers = input("Dame 3 números para poder realizar mi función (Introdúcelos separados por comas y espacio): ")
-
-
 
 def biggest_number(input_numbers):
     list = []
