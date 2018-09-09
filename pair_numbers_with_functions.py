@@ -17,12 +17,11 @@ while user_input != "FIN":
 if user_input == "FIN":
     new_list = []
 
-
     def pair_numbers(numbers_list):
         for number in numbers_list:
-            if number % 2 == 0:
+            if int(number) % 2 == 0:
                 new_list.append(number)
-                print(new_list)
+                print("Los númoeros pares son {}".format(new_list))
 
         return(pair_numbers)
 
