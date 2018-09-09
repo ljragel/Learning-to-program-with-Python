@@ -14,12 +14,16 @@ while user_input != "FIN":
         print("¡Número añadido correctamente!")
         user_input = input("Introduce un número para añadirlo a lista y poder ejecutar el programa (FIN para finalizar la lista): ").upper()
 
+if user_input == "FIN":
+    new_list = []
 
-        def pair_numbers(numbers_list):
-            for number in numbers_list:
-                if number % 2 == 0:
-                    print("Los números {} son pares".format(number))
 
-while not user_input != "FIN":
+    def pair_numbers(numbers_list):
+        for number in numbers_list:
+            if number % 2 == 0:
+                new_list.append(number)
+                print(new_list)
 
-    print(pair_numbers(numbers_list))
+        return(pair_numbers)
+
+print(pair_numbers(numbers_list))
