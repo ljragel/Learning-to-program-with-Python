@@ -10,13 +10,13 @@ user_list = []
 
 user_items = input("Dime un item que quieras añadir a la lista: ")
 
-if not user_items != "FIN":
+if user_items != "FIN":
     for new_item in user_list:
         user_list.append(new_item)
         print("¡Item añadido a la lista correctamente!")
 
 else:
-    print(user_list)
+    print(len(user_list))
 
 
 
