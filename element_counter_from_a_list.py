@@ -16,6 +16,7 @@ if user_items != "FIN":
         print("¡Item añadido a la lista correctamente!")
 
 else:
+
     print(len(user_list))
 
 
