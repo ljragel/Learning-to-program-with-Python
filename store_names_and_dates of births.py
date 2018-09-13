@@ -10,25 +10,25 @@ data = dict()
 
 user_action = input("¿Qué deseas hacer? [Añadir fechas [A] / Consultar fechas [C] / Salir [S]: ").upper()
 
-while works:
-
+if works:
 #Add
-if user_action == "A":
-    print("Añadir fechas")
-    print("----------------------------")
-    name = input("Nombre: ")
-    date = input("Fecha: ")
-    data[name] = date
-    user_action = input("¿Qué deseas hacer? [Añadir fechas [A] / Consultar fechas [C] / Salir [S]: ").upper()
 
-#Search
-elif user_action == "C":
-    print("Consultar fechas")
-    print("----------------------------")
-    question = input("¿De quién quieres saber la fecha de nacimiento?")
-    print(data[name])
-    user_action = input("¿Qué deseas hacer? [Añadir fechas [A] / Consultar fechas [C] / Salir [S]: ").upper()
+    if user_action == "A":
+        print("Añadir fechas")
+        print("----------------------------")
+        name = input("Nombre: ")
+        date = input("Fecha: ")
+        data[name] = date
+        print("¡Datos guardados correctamente!")
 
-#Exit
-elif user_action == "S":
-    works = False
+    #Search
+    elif user_action == "C":
+        print("Consultar fechas")
+        print("----------------------------")
+        question = input("¿De quién quieres saber la fecha de nacimiento?")
+        print(data[name])
+        user_action = input("¿Qué deseas hacer? [Añadir fechas [A] / Consultar fechas [C] / Salir [S]: ").upper()
+
+    #Exit
+    elif user_action == "S":
+        works = False
