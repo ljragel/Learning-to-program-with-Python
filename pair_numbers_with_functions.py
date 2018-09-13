@@ -22,6 +22,6 @@ if user_input == "FIN":
             if int(number) % 2 == 0:
                 new_list.append(number)
 
-        return(pair_numbers)
+        return(new_list)
 
 print("Los números pares de todos los que has introducido son: {} ".format(pair_numbers(new_list)))
