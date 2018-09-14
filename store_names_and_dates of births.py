@@ -2,17 +2,17 @@
 Crea un programa que sea capaz de guardar los nombres de tus amigos y sus años de nacimiento.
 """
 
-#
+#Hay algún tipo de bug qye hace que la primera persona no funcione toma el valor del dato de la segunda persona
 
-works = True
+works = False
 
 data = dict()
 
-user_action = input("¿Qué deseas hacer? [Añadir fechas [A] / Consultar fechas [C] / Salir [S]: ").upper()
+while not works:
 
-if works:
-#Add
+    user_action = input("¿Qué deseas hacer? [Añadir fechas [A] / Consultar fechas [C] / Salir [S]: ").upper()
 
+    #Add
     if user_action == "A":
         print("Añadir fechas")
         print("----------------------------")
@@ -27,8 +27,7 @@ if works:
         print("----------------------------")
         question = input("¿De quién quieres saber la fecha de nacimiento?")
         print(data[name])
-        user_action = input("¿Qué deseas hacer? [Añadir fechas [A] / Consultar fechas [C] / Salir [S]: ").upper()
 
     #Exit
     elif user_action == "S":
-        works = False
+        works = True
