@@ -1,7 +1,6 @@
 import random
 import math
 
-
 def main():
     inside = 0
     total = 0
