@@ -1,0 +1,11 @@
+
+
+pwd = Saber dónde estás
+cd = Acceder a
+mkdir = Crear directorio
+rm = Eliminar archivo
+rm -r / rmdir = Eliminar directorio
+tocuh = Crear archivo
+ls = Mostrar todos los directoios
+man
+clear = Limpiar terminal
