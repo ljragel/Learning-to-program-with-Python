@@ -1,3 +1,4 @@
-# Aprendiendo-a-programar
+# Learning to program with Python
 
-Este repositorio está destinado a todo lo aprendido en el curso de programación de NateAcademy
+In this repository I will show every little project that I programme while I'm learning the basics of programming.
+I'm learning by NateAcademy and by my self.
