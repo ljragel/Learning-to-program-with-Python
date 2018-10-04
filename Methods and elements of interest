@@ -1,0 +1,64 @@
+>>range(x,y) te crea una lista del numero inicial indicado al numero final indicado
+>> .format(loquesea) introduce lo que sea dentro de un string
+
+>for  in lista:   Esta es la sintaxis del for each en python,"para cada item en la lista haz:"
+
+if              sintaxis de la estructura "if-else" en python
+elif
+else
+
+
+print()         impirme con salto de linea incluido
+
+
+>>len() Dice la longitud de una lista en python
+
+>>__len__()             nose la diferencia que hay la verdad
+
+>>replace("a", "e")             sustituye el primer parametro de una strign
+
+>>for i in range(10):
+    array[1]=loquesea       ESTO ES EL FOR NORMAL DE JAVA
+
+--> max()            ME DA EL VALOR MAXIMO DE LA LISTA PROPORCIONADA, vale para int's y float's
+
+--> import libreria    SINTAXIS DE UN IMPORT
+
+--> actual_date= datetime.datetime().now()      DICE LA FECHA con sus horas minutos y segundos
+
+
+"30 del 1 de 2018"
+-->objeto_datetime.strfname(%d del %m de %Y) ESTO FORMATEARA LA EL OBJETO PARA IMPRIMIRLO COMO SE MUESTRA ARRIBA
+
+-->en python no hay forma de decir que hay algo es constante por ello, se ponen las variables que lo van a ser en mayuscula
+
+-->en python los atributos y variables de clase se definen poniendo una barrabaja delante, AUNQUE
+a efectos practicos es solo a modo explicativo, pero son igualmente accesibles.
+
+        -->Una si es protected, y dos si es privada
+
+==> string.strftime(%d/%m/%Y)
+
+==>random.randInt(a, b)
+
+==> from time import sleep
+
+==> def main()
+
+==>if __name__=="__main__":
+        main()
+
+==> open("nombre_archivo", "w")  //el segundo parametro es la accion a realizar, es decir, añadir, crear archivo, etc.
+
+==>el "null" en python es "None"
+
+==>.find("loquequiereas")    //METODO DE LAS STRINGS QUE ME DEVULEVE -1, SI NO ENCUENTRA NADA DE LO QUE LE PASAMOS Y UN INT(LA POSICION) DE LA CADENAD DE CARACTERES PEDIDA
+
+-------------------------------------------------------------------------------------------------------------
+
+MUY IMPORTANTE, ESTOS METODOS SIRVEN PARA GUARDAR COSAS EN ARCHIVOS FUERA DEL PROGRAMA
+
+==> pickle.load(open('nombreDelArchivo', 'modoLectura'))
+
+==>    with open('nombrearchivo', "wb") as save_file:
+        pickle.dump('loquequieroguardar', save_file)
