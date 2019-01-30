@@ -1,4 +1,4 @@
-# Learning to program with Python
+# Learning Python
 
 
 In this repository I will show every little project that I programme while I'm learning the basics of programming.
